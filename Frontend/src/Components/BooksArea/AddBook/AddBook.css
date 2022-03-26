@@ -1,0 +1,82 @@
+.AddBook > form {
+	width: 450px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    margin: 10px auto;
+    /* padding: 10px; */
+    border: 1px solid;
+}
+
+
+.AddBook span {
+	color: red;
+    position: absolute;
+    margin: 0 40px;
+}
+
+
+.AddBook input ,.AddBook select {
+width: 100%;
+margin: 0 0 20px 0;
+box-sizing: border-box;
+}
+
+
+.AddBook button{
+width: 100%;
+margin: 10px 0 20px 0;
+
+
+
+/* added this for material:   */
+/* padding: 20px; */
+
+}
+
+.AddBook button:hover {
+transform: scale(0.98);
+cursor: pointer;
+    }
+
+
+
+
+
+/* 
+
+.AddBook > form {
+	width: 450px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    margin: 10px auto;
+    border: 1px solid;
+}
+
+
+.AddBook .spanner {
+	color: red;
+    position: absolute;
+    margin: 0 40px;
+}
+
+
+.AddBook input ,.AddBook select {
+
+width: 100%;
+margin: 0 0 20px 0;
+box-sizing: border-box;
+}
+
+
+.AddBook button{
+width: 100%;
+margin: 10px 0 20px 0;
+
+}
+
+.AddBook .TextBox {
+    width: 100%;
+    margin: 0 0 20px 0;
+} */

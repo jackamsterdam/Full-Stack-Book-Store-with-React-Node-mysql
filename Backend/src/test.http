@@ -1,0 +1,48 @@
+###REST CLIENT Extension
+GET http://localhost:3001/api/genres
+Authorization:
+
+###
+GET http://localhost:3001/api/books-by-genre/1
+Authorization:
+###
+POST http://localhost:3001/api/books
+Content-Type: application/json
+Authorization:
+
+{
+    "genreId": "1",
+    "bookName": "the book",
+    "description": "book about a book",
+    "price": 99.65,
+    "stock": 443
+}
+
+###
+DELETE http://localhost:3001/api/books/4
+
+
+
+
+
+###Error checks:
+
+### 404 ErrorModel   Resource with id ____________ not found.
+GET http://localhost:3001/api/books-by-genre/134543
+###  400 ErrorModel Bad Request  Joi validation error
+POST http://localhost:3001/api/books
+Content-Type: application/json
+# Authorization: puttoken here 
+
+{
+    "genreId": "1",
+    "bookName": 545545,
+    "description": "book about a book",
+    "price":"sjdkfdsfk",
+    "stock": 443
+}
+
+
+### 404 ErrorModel   Resource with id ____________ not found. 
+DELETE http://localhost:3001/api/books/4587576
+

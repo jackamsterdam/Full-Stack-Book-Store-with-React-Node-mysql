@@ -1,0 +1,25 @@
+.BookCard {
+	border: 1px solid black;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px grey;
+    text-align: left;
+    padding: 10px;
+    margin: 10px; 
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 120px;
+    /* font-size: smaller; */
+}
+
+.BookCard button {
+	background-color: transparent;
+    border: none;
+    font-size: small;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;    
+    /* font-size: small; */
+    cursor: pointer;
+}
